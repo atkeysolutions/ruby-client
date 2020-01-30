@@ -10,7 +10,7 @@ task :default => :test
 begin
   require "hanna/rdoctask"
 rescue LoadError
-  require "rake/rdoctask"
+  require "rdoc/task"
 end
 
 # Generate documentation
